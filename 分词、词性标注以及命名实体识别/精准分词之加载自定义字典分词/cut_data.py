@@ -44,12 +44,12 @@ if __name__ == '__main__':
             result = result.split('Flag2')
             result = merge_two_list(result,result2)
             result = ''.join(result)
-        if 'Flag1' in words1:
-            words1 = words1.split('Flag1')
+        if 'Flag 1' in words1:
+            words1 = words1.split('Flag 1')
             words1 = merge_two_list(words1,result1)
             words1 = ''.join(words1)
-        if 'Flag2' in words1:
-            words1 = words1.split('Flag2')
+        if 'Flag 2' in words1:
+            words1 = words1.split('Flag 2')
             words1 = merge_two_list(words1,result2)
             words1 = ''.join(words1)
         fout_jieba.write(result)

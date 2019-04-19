@@ -28,8 +28,8 @@ def cut_hanlp(raw_sentence,return_list=True):
         return to_string(raw_sentence) if return_list else iter(to_string(raw_sentence))
 
 
-if __name__ == '__main__':
-    sentence = u'你好，今天天气真好'
-    a = " ".join([word_pos_item.toString().split('/')[0] for word_pos_item in Tokenizer.segment(sentence)])
-    g = [word_pos_pair[0] for word_pos_pair in a if len(word_pos_pair)==2 and word_pos_pair[0]!=' ']
-    print(g)
+# if __name__ == '__main__':
+#     sentence = u'你好，今天天气真好'
+#     a = " ".join([word_pos_item.toString().split('/')[0] for word_pos_item in Tokenizer.segment(sentence)])
+#     g = [word_pos_pair[0] for word_pos_pair in a if len(word_pos_pair)==2 and word_pos_pair[0]!=' ']
+#     print(g)
