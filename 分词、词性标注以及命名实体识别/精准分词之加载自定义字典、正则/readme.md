@@ -14,8 +14,10 @@ jieba只需通过jieba.load_userdict("dict.txt")即可
 
 *3.在D:\hanlp\hanlp.properties中添加字典*
 
-**2正则<br>**
+**2.正则**
+
 一些加载了自定义字典之后仍然无法有效划分的词语可以通过正则项匹配的方式进行划分
 
 
-最后运行 cut_data.py
+
+**最后运行 cut_data.py**
